@@ -64,7 +64,7 @@ const equiposFicticios = [
 const equipos = [];
 
 for (let i = 1; i <= 10; i++) {
-    const nombre = equiposFicticios[i];
+    const nombre = equiposFicticios[i-1];
     const puntos = Math.floor(Math.random() * 50); // Puntos aleatorios entre 0 y 49
     const partidos = [
         Math.floor(Math.random() * 20), // Partidos jugados
