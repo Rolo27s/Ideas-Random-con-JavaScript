@@ -1,0 +1,9 @@
+#container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#container div {
+    border: 1px solid black;
+    transition: background-color 1.5s ease;
+}
